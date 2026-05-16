@@ -68,7 +68,7 @@ false → resource is skipped
 
 The following output confirms that Loopback105 was successfully configured on R1 using Terraform.
 
-![R1 Loopback](images/r1-loopback.png)
+![R1 Loopback] (images/r1-loopback.png)
 
 ---
 
