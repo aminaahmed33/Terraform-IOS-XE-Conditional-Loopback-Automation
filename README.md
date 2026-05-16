@@ -54,7 +54,6 @@ The lab automates loopback interface configuration on two routers (R1 and R2), a
 
 This project demonstrates conditional resource creation:
 
-```hcl
 count = var.enable_secondary_loopback ? 1 : 0
 
 true → resource is created
