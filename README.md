@@ -50,7 +50,7 @@ The lab automates loopback interface configuration on two routers (R1 and R2), a
 
 ---
 
-## 🔄 Conditional Logic (Key Concept)
+## Conditional Logic (Key Concept)
 
 This project demonstrates conditional resource creation:
 
@@ -61,9 +61,9 @@ false → resource is skipped
 
 ---
 
-## 🔍 Verification
+## Verification
 
-### ✅ R1 Loopback Configuration
+### R1 Loopback Configuration
 
 The following output confirms that Loopback105 was successfully configured on R1 using Terraform.
 
@@ -71,7 +71,7 @@ The following output confirms that Loopback105 was successfully configured on R1
 
 ---
 
-### ✅ R2 Loopback (Secondary Enabled)
+### R2 Loopback (Secondary Enabled)
 
 When `enable_secondary_loopback = true`, Terraform creates an additional loopback interface (Loopback107) on R2.
 
@@ -79,7 +79,7 @@ When `enable_secondary_loopback = true`, Terraform creates an additional loopbac
 
 ---
 
-### 🚫 R2 Loopback (Secondary Disabled)
+### R2 Loopback (Secondary Disabled)
 
 When `enable_secondary_loopback = false`, Terraform does not create Loopback107, only Loopback106.
 
@@ -92,4 +92,11 @@ When `enable_secondary_loopback = false`, Terraform does not create Loopback107,
 - All credentials and IPs shown are from a lab environment
 - No production systems are exposed
 - Sensitive files are excluded using `.gitignore`
+
+---
+
+## Author
+
+**Amina Ahmed**  
+Packet Core & IP Network Engineer | Network Automation Enthusiast
 
